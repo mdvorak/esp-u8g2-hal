@@ -69,6 +69,7 @@ To use the actual U8g2 library in your ESP32 project, perform the following step
 
 1. Run `git submodule add https://github.com/mdvorak/esp-u8g2-hal.git components/u8g2_hal` to bring in the latest copy of this library.
 1. Run `git submodule add https://github.com/olikraus/u8g2.git components/u8g2` to bring in a the latest copy of u8g2 library.
+1. Commit the changes.
 
 Alternatively, you can use [IDF Component Manager](https://github.com/espressif/idf-component-manager) to pull the dependencies.
 
