@@ -67,12 +67,10 @@ this initialization, we can use U8g2 as normal and described in the U8g2 documen
 ## Installation
 To use the actual U8g2 library in your ESP32 project, perform the following steps:
 
-1. Create a directory called `components` in your main project directory.
-2. Change into the `components` directory.
-3. Run `git clone https://github.com/mkfrey/u8g2-hal-esp-idf.git` to bring in the latest copy of this library.
-4. Run `git clone https://github.com/olikraus/u8g2.git` to bring in a the latest copy of u8g2 library.
+1. Run `git submodule add https://github.com/mdvorak/esp-u8g2-hal.git components/u8g2_hal` to bring in the latest copy of this library.
+1. Run `git submodule add https://github.com/olikraus/u8g2.git components/u8g2` to bring in a the latest copy of u8g2 library.
 
-If your project itself is a git repository, you should consider using `git submodule add` instead of cloning.
+Alternatively, you can use [IDF Component Manager](https://github.com/espressif/idf-component-manager) to pull the dependencies.
 
 ## Development
 While in principal, there should be nothing specific needed beyond this addition to make U8g2 work on the ESP32, only a small
