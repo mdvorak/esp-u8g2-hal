@@ -1,6 +1,6 @@
 # U8g2 compatibility component for esp-idf on ESP32
 
-[![build](https://github.com/mdvorak/esp-u8g2-hal/actions/workflows/build.yml/badge.svg)](https://github.com/mdvorak/esp-u8g2-hal/actions/workflows/build.yml)
+[![test](https://github.com/mdvorak/esp-u8g2-hal/actions/workflows/test.yml/badge.svg)](https://github.com/mdvorak/esp-u8g2-hal/actions/workflows/test.yml)
 
 ## Note
 This is effectively a fork of the U8G2 code that is part of Neil Kolban's excellent `esp32-snippets` repository. It can be found 
