@@ -72,6 +72,15 @@ To use the actual U8g2 library in your ESP32 project, perform the following step
 1. Commit the changes.
 
 Alternatively, you can use [IDF Component Manager](https://github.com/espressif/idf-component-manager) to pull the dependencies.
+Add following dependencies to your `idf_component.yml` file:
+```yaml
+dependencies:
+  u8g2:
+    git: https://github.com/olikraus/u8g2.git
+  u8g2_hal:
+    git: https://github.com/mdvorak/esp-u8g2-hal.git
+    version: v1.0.0
+```
 
 ## Development
 While in principal, there should be nothing specific needed beyond this addition to make U8g2 work on the ESP32, only a small
